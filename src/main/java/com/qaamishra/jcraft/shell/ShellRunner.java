@@ -14,7 +14,7 @@ import java.io.OutputStream;
 
 public class ShellRunner {  
 
-	public static boolean runBatchScriptInLinux(String host,String uname,String pwd) throws JSchException, IOException, SftpException, InterruptedException{
+	public boolean runBatchScriptInLinux(String host,String uname,String pwd) throws JSchException, IOException, SftpException, InterruptedException{
 
         boolean flagCompletedBatch=false;
         boolean flagAnErrorOccurred=false;
